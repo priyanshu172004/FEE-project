@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "poppins", sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(4, 4, 4);
+}
+.header{
+    display: flex;
+    padding: 20px;
+    width: 99.97%;
+    background: rgba(255, 255, 255, 0.085);
+    position: sticky;
+}
+.header span{
+    display: flex;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family: monospace;
+}
+.header span:hover{
+    cursor: pointer;
+}
+.header i{
+    color: rgb(255, 144, 60);
+    margin-left: 10px;
+}
+.header nav{
+    display: flex;
+    align-items: center;
+    margin-left: 45%;
+    color: white;
+    text-decoration: none;      
+}
+.header a{
+    font-family: monospace;
+    padding-bottom: 5px;
+    margin-left: 40px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+.header a:hover{
+    border-bottom: 2px solid rgb(255, 144, 60);
+    color: rgb(255, 144, 60);
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 50px;
+    margin: 40px;
+    border-radius: 20px;
+    background: rgba(255, 136, 0, 0.065);
+}
+.container .text{
+    background: rgba(255, 255, 255, 0.129);
+    border-radius: 30px;
+    color: white;
+    padding: 30px;
+    font-size: 55px;
+    font-family: "Lato",sans-serif;
+    width: 50%;
+}
+#description{
+    margin-top: 70px;
+    font-size: 20px;
+    font-family: monospace;
+}
+.container button{
+    padding: 20px;
+    margin-top: 40px;
+    width: 30%;
+    border-radius: 10px;
+    font-family: monospace;
+    background: none;
+    font-size: 18px;
+    outline: none;
+    border: 1px solid rgb(152, 152, 152);
+    color: white;
+}
+.container button:hover{
+    background: rgba(255, 255, 255, 0.102);
+}
+.container .picture{
+    height: 60vh;
+    width: 50%;
+}
+.wrapper{
+    margin: 40px;
+}
+.wrapper span{
+    color: white;
+    font-size: 40px;
+    font-family: "Poppins",sans-serif;
+}
+#para{
+    font-size: 18px;
+    color: white;
+    font-family: monospace;
+}
+.wrapper .info{
+    width: 50%;
+    border-radius: 30px;
+    padding: 50px;
+    background: rgba(255, 255, 255, 0.1);
+}
