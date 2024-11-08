@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YOUTUBE-TRANSCRIPT-SUMMARIZER/MAIN-PAGE</title>
+    <script src = "https://kit.fontawesome.com/a7a8925472.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="landingpage.css">
+    <link href = "https://fonts.googleapis.com/css2?family=Lato&display=swap">
+    <script src = "landingpage.js"></script>
+</head>
+<body>
+    <div class="header">
+        <span>Summarizer.io <i class="fa-brands fa-slack"></i></span>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="aboutus.html">About Us</a>
+            <a href="#contact">Contact</a>
+            <a href="#service">Services</a>
+            <a href="login page2.html">Register/Login</a>
+        </nav>
+        <div class="menu-toggle" id="mobile-menu">
+            <i class="fas fa-bars"></i>
+        </div>
+    </div>
+    <script>
+        document.getElementById("mobile-menu").addEventListener("click", function() {
+            var nav = document.querySelector(".header nav");
+            nav.classList.toggle("show");
+        });
+    </script>
+    <div class="typewritter" id = "home">
+        <center>
+            <span>Summarize </span><span id = "underline">Faster</span><br>
+            <span id = "underline">Work </span><span>Smarter</span>
+        </center>
+    </div>
+    <div class="container">
+        <div class="text">
+            <span id = "message">Hello There,</span><br>
+            <span id = "message">Welcome To</span><br>
+            <span id = "message">Summarizer.io</span>
+            <p id = "description">Your Personalised Youtube Transcript Summarizer, Summarizer.io is a tool that converts lengthy video transcripts into concise, easy-to-read summaries.</p>
+            <button type = "submit" id = "btn">Get Started <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+        <script>
+            document.getElementById("btn").onclick = function() {
+                document.getElementById("btn-link").scrollIntoView({behavior: 'smooth'});
+            };
+        </script>
+        <div class="picture">
+            <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.21/build/spline-viewer.js"></script>
+            <spline-viewer url="https://prod.spline.design/wZj5O0EwdRsv9CHx/scene.splinecode"></spline-viewer>
+        </div>
+    </div>
+    <div class="wrapper">
+        <div class="info">
+            <span>Effortless Transcripts,</span><br>
+            <span>Powerful Insights</span><br><br><br>
+            <span id = "para">With Summarizer.io users can quickly and easily extract the most important information from any video, making it easier to digest content, take notes, or share knowledge. Whether you're a student, professional, or content creator, our platform is designed to save you time and enhance your understanding by delivering both detailed transcripts and concise, actionable insights.</span>
+            <br><br>
+            <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.21/build/spline-viewer.js"></script>
+            <spline-viewer url="https://prod.spline.design/DlUXOxLSIZtTnyon/scene.splinecode"></spline-viewer>
+        </div>
+    </div>
+    <div class="link">
+        <div class="photo">
+            <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.23/build/spline-viewer.js"></script>
+            <spline-viewer url="https://prod.spline.design/bF30Bho3NweGP2To/scene.splinecode"></spline-viewer>
+        </div>
+        <div class="link-space" id="btn-link">
+            <h1>Transform Video Chaos Into Clarity</h1>
+            <span>Get Summarized Content Within Seconds</span>
+            <span>Paste Your Link Now.</span><br>
+            <input type="text" id="link-input" placeholder="Enter Link Here">
+            <center><button type="submit" id="summarize-btn">Summarize</button></center>
+        </div>
+    </div>
+    <div class="heading" id = "service">
+        <span>Explore More With</span>
+        <span id = "name">Summarizer.io</span>
+    </div>
+    <div class="features">
+        <div class="feature">
+            <h1>Automatic Transcript Extraction</h1>
+            <span>The app automatically extracts the transcript from YouTube videos, eliminating the need for manual input. Users simply paste the video URL, and the app fetches the entire transcript for processing.</span>
+        </div>
+        <div class="feature">
+            <h1>Summarization Options</h1>
+            <span>Users can choose different summarization modes (e.g., concise, detailed, or bullet points). This flexibility allows the summary to be tailored to specific needs, such as a quick overview or an in-depth review.</span>
+        </div>
+        <div class="feature">
+            <h1>Keyword Highlighting</h1>
+            <span>The app highlights key terms and phrases in the summary, making it easy to identify the most important points. This feature is particularly useful for quickly scanning the summary for relevant information.</span>
+        </div>
+        <div class="feature">
+            <h1>Language Support</h1>
+            <span>The app supports multiple languages, both for transcript extraction and summarization. This feature is ideal for users who work with content in different languages or need summaries in specific languages.</span>
+        </div>
+        <div class="feature">
+            <h1>Downloadable Summaries</h1>
+            <span>Users can download the summarized text in various formats (e.g., PDF, Word, or plain text). This ensures easy sharing and offline access to the summarized content.</span>
+        </div>
+        <div class="feature">
+            <h1>Time-Stamped Summaries</h1>
+            <span>The app provides summaries with time stamps, allowing users to jump directly to specific parts of the video. This is especially useful for longer videos where only certain sections are relevant.</span>
+        </div>
+    </div>
+    <div class="element">
+        <h2>Key Features</h2>
+        <span>What Makes Summarizer.io Different</span>
+    </div>
+    <div class="cards">
+        <div class="card" id = "card-1">
+            <span>SUMMARIZE</span><br>
+            <span id = "big">10x</span><br>
+            <span>FASTER</span><br>
+            <span>AND</span><br>
+            <span>SMARTER</span>
+        </div>
+        <div class="card" id = "card-2">
+            <span>EFFICIENT</span><br>
+            <span>RELIABLE</span><br>
+            <span>SCALABLE</span><br>
+            <span>PRODUCTIVE</span><br>
+            <span>TIME SAVING</span>
+            <span></span>
+        </div>
+        <div class="card" id = "card-3">
+            <span>ENHANCE</span><br>
+            <span>YOUR</span><br>
+            <span>PRODUCTIVITY</span><br>
+            <span>BY</span><br>
+            <span id = "big">50x</span>
+        </div>
+    </div>
+    <div class="feedback">
+        <span id = "feedback">Would You Like To Rate Us</span>
+        <span>Feedback Fuels Excellence</span>
+        <button type = "submit" id = "rate">Rate Us</button>
+    </div>
+    <script>
+        document.getElementById("rate").onclick = function() {
+            window.location.href = "fbform.html";
+        };
+    </script>
+    <div class="footer-main">
+        <div class="footer">
+            <div class="footer-card">
+                <h2>Summarizer.io <i class="fa-brands fa-slack"></i></h2>
+            </div>
+            <div class="footer-card">
+                <h2>Product</h2>
+                <span>iOS</span>
+                <span>Android<span><br>
+                <span>Mac</span><br>
+                <span>Linux<span><br>
+                <span>Windows</span><br>
+                <span>Community</span><br>
+            </div>
+            <div class="footer-card">
+                <h2>Resources</h2>
+                <span>Content</span>
+                <span>Education</span>
+                <span>Enterpise</span>
+                <span>Docs</span>
+                <span>Examples</span>
+                <span>Tutorials</span>
+                <span>Customers</span>
+            </div>
+            <div class="footer-card">
+                <h2>Company</h2>
+                <span>Carrier</span>
+                <span>Terms and conditions</span>
+                <span>Privacy Policy</span>
+                <span>Security</span>
+            </div>
+            <div class="footer-card" id = "contact">
+                <h2>Contact</h2>
+                <span>summarizer@gmail.com</span>
+                <span>global_summarizer@gmail.com</span>
+                <span>Ph: 808155XXXX</span>
+                <span>Mobile: 983808XXXX</span>
+            </div>
+        </div>
+        <div class="footer-line">
+            <div class="footer-div">
+                <hr id="line">
+            </div>
+            <div class="footer-div">
+                <span>©2021 Summarizer.io, Inc.</span>
+                <span>All Rights Reserved.</span>
+                <span id = "social">
+                    <i class="fa-brands fa-x-twitter"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-discord"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
